@@ -1,8 +1,7 @@
-/* eslint-disable react/prefer-stateless-function */
 import React from 'react';
 import './Calculator.css';
 
-class Calculator extends React.Component {
+export default class Calculator extends React.PureComponent {
   render() {
     return (
       <>
@@ -42,5 +41,3 @@ class Calculator extends React.Component {
     );
   }
 }
-
-export default Calculator;
