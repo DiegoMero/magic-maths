@@ -1,14 +1,13 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Magic Maths
 
-> Description the project.
+> An online calculator and a random math-quote generator, have fun with numbers!
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- JavaScript, CSS, HTML.
+- React.
 
 ## Live Demo (if available)
 
@@ -16,33 +15,20 @@
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps:
 
-### Prerequisites
+- Open your console.
+- Type the following "git clone git@github.com:DiegoMero/magic-maths.git".
+- Press ENTER to create your local clone.
+- Start the SPA by typing `npm start`
 
-### Setup
+## Author
 
-### Install
+👤 **Diego Mero**
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@github](https://github.com/DiegoMero)
+- Twitter: [@twitter](https://twitter.com/Dimero18)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/diego-mero-80b326225/)
 
 ## 🤝 Contributing
 
@@ -56,9 +42,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- I got inspired by Microverse templates.
 
 ## 📝 License
 
