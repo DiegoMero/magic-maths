@@ -22,7 +22,7 @@ export default class Calculator extends React.PureComponent {
     return (
       <>
         <div className="calculator">
-          <input className="calculator-input" type="input" placeholder={next || total} />
+          <input className="calculator-input" type="input" placeholder={next || total} readOnly="true" />
           <div className="line1">
             <button className="AC-button" type="button" onClick={this.handleEvent}>AC</button>
             <button className="change-sing-button" type="button" onClick={this.handleEvent}>+/-</button>
