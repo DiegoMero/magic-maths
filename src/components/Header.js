@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import { Link } from 'react-router-dom';
 
 class Header extends React.PureComponent {
   render() {
@@ -7,11 +8,11 @@ class Header extends React.PureComponent {
       <header className="header">
         <h1>Math Magicians</h1>
         <div className="linksContainer">
-          <h3 className="home">Home</h3>
+          <Link to="/">Home</Link>
           <span />
-          <h3>Calculator</h3>
+          <Link to="/Calculator">Calculator</Link>
           <span />
-          <h3>Quote</h3>
+          <Link to="/Quote">Quote</Link>
         </div>
       </header>
     );

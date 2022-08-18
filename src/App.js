@@ -5,6 +5,7 @@ import Calculator from './components/Calculator';
 import Home from './components/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Quote from './components/Quote';
 
 export default class App extends React.PureComponent {
   render() {
@@ -14,6 +15,7 @@ export default class App extends React.PureComponent {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Calculator" element={<Calculator />} />
+          <Route path="/Quote" element={<Quote />} />
         </Routes>
         <Footer />
       </div>

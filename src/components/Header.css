@@ -15,8 +15,12 @@
   margin-left: auto;
   gap: 5px;
   margin-right: 5%;
+}
+
+.linksContainer a {
   text-decoration: underline;
   color: blue;
+  font-size: 20px;
 }
 
 .linksContainer span {
