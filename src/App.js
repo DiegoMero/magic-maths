@@ -1,6 +1,8 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Calculator from './components/Calculator';
+import Home from './components/Home';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -9,7 +11,10 @@ export default class App extends React.PureComponent {
     return (
       <div className="App">
         <Header />
-        <Calculator />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Calculator" element={<Calculator />} />
+        </Routes>
         <Footer />
       </div>
     );
