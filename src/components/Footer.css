@@ -1,0 +1,11 @@
+footer {
+  margin-top: auto;
+}
+
+footer div {
+  background-color: #b9b9b1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+  border: 3px solid black;
+}
