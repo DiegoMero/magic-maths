@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.37);
+}
+
+.header h1 {
+  margin-left: 5%;
+}
+
+.linksContainer {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 5px;
+  margin-right: 5%;
+}
+
+.linksContainer a {
+  text-decoration: underline;
+  color: blue;
+  font-size: 20px;
+}
+
+.linksContainer span {
+  border: solid black 1px;
+  height: 35%;
+}
